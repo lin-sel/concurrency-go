@@ -31,3 +31,7 @@ func runMain2(mk chan int) {
 	fmt.Println("Receiving Value From Channel...")
 	fmt.Println(<-mk)
 }
+
+// Buffered Channel does not garanteed of massege delivery.
+
+// it have length as compared to Unbuffered Channel..
